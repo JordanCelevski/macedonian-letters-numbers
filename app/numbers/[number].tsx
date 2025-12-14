@@ -57,7 +57,6 @@ export default function DrawNumberScreen() {
             Број {number} {numberLabel ? `– ${numberLabel}` : ""}
           </Text>
 
-          {/* {!!image && <Image source={image} style={styles.picture} resizeMode="contain" />} */}
           {!!soundFile && <SoundButton onPress={play} />}
         </View>
 
