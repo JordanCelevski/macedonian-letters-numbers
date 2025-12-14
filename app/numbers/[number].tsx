@@ -8,7 +8,7 @@ import {
   View,
 } from "react-native";
 
-import { NUMBER_IMAGES, NUMBER_SOUNDS } from "@/src/constants/numberAssets";
+import { NUMBER_SOUNDS } from "@/src/constants/numberAssets";
 import { isNumberValue, NUMBERS } from "@/src/constants/numbers";
 import { useSound } from "@/src/hooks/useSound";
 import { ColorPicker } from "../../src/components/ColorPicker";
@@ -34,7 +34,6 @@ export default function DrawNumberScreen() {
 
   const [strokeColor, setStrokeColor] = useState<string>(COLOR_OPTIONS[0]);
 
-  const image = NUMBER_IMAGES[number];
   const soundFile = NUMBER_SOUNDS[number];
   const { play } = useSound(soundFile);
 
