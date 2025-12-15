@@ -14,6 +14,11 @@
     "android": {
       "package": "com.jordanc.uchiiCRTAJ",
       "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6389a1e6-511c-4dd3-81a0-89f0bd73f0da"
+      }
     }
   }
 }
